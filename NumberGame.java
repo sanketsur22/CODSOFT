@@ -15,7 +15,7 @@ public class NumberGame {
             boolean NotGuessedCorrectly = true;
             int score = 0;
             System.out.println();
-            System.out.println("Welcome to the Number Guessing Game!!");
+            System.out.println("Welcome to Number Guessing Game!!");
             System.out.println();
             System.out.println("You must choose a number between 1 and 100 by guessing it from a set of randomly generated numbers.");
             System.out.println();
