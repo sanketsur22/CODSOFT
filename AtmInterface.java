@@ -1,8 +1,4 @@
 import java.util.*;
-
-/* Withdraw , Deposit , Checkbalance */
-
-
 public class AtmInterface
 {
 	public static void main(String[] args) {
