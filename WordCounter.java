@@ -9,15 +9,11 @@ public class WordCounter {
          String line;  
         int count = 0;  
   
-        //Opens a file in read mode  
         FileReader file = new FileReader("demo.txt ");  
         BufferedReader br = new BufferedReader(file);  
-        
-        //Gets each line till end of file is reached  
+         
         while((line = br.readLine()) != null) {  
-            //Splits each line into words  
-            String word[] = line.split(" ");  
-            //Counts each word  
+            String word[] = line.split(" "); 
             count = count + word.length;  
             HashMap<String, Integer> map = new HashMap<>();
 
