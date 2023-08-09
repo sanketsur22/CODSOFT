@@ -12,7 +12,7 @@ public class WordCounter {
         //Opens a file in read mode  
         FileReader file = new FileReader("demo.txt ");  
         BufferedReader br = new BufferedReader(file);  
-        // changes
+        
         //Gets each line till end of file is reached  
         while((line = br.readLine()) != null) {  
             //Splits each line into words  
